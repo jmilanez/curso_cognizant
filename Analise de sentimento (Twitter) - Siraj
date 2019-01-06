@@ -14,7 +14,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 #Variável que irá armazenar todos os Tweets com a palavra escolhida na função search da API
-public_tweets = api.search('Futebol')
+public_tweets = api.search('Soccer')
 
 #Variável que irá armazenar as polaridades
 analysis = None
